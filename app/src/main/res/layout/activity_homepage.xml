@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pinkbg2"
+    tools:context=".Homepage">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="314dp"
+        android:layout_height="44dp"
+        android:fontFamily="@font/willonaile"
+        android:gravity="center"
+        android:text="Rumah Sakit Finder"
+        android:textColor="#2D3142"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="225dp"
+        android:layout_height="56dp"
+        android:gravity="left"
+        android:text="Welcome!"
+        android:textColor="#2D3142"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.168" />
+
+    <TextView
+        android:id="@+id/tvname"
+        android:layout_width="358dp"
+        android:layout_height="37dp"
+        android:gravity="left"
+        android:paddingLeft="18dp"
+        android:text="Text Name"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.264"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.227" />
+
+    <TextView
+        android:id="@+id/tvemail"
+        android:layout_width="356dp"
+        android:layout_height="33dp"
+        android:gravity="left"
+        android:paddingLeft="18dp"
+        android:text="Text Email"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.292" />
+
+    <TextView
+        android:id="@+id/tvcoordinates"
+        android:layout_width="356dp"
+        android:layout_height="33dp"
+        android:gravity="center"
+        android:paddingLeft="18dp"
+        android:text="Text Coordinate"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.378" />
+
+    <Button
+        android:id="@+id/signout"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="127dp"
+        android:layout_height="90dp"
+        android:background="#CBEDDE"
+        android:text="Sign Out"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:backgroundTint="@color/pink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Hospitalbtn"
+        app:layout_constraintVertical_bias="0.426" />
+
+    <Button
+        android:id="@+id/Aboutusbtn"
+        style="@style/Widget.MaterialComponents.Button.Icon"
+        android:layout_width="127dp"
+        android:layout_height="90dp"
+        android:background="#CBEDDE"
+        android:text="About Us"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:backgroundTint="@color/pink"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Hospitalbtn"
+        app:layout_constraintVertical_bias="0.426" />
+
+    <Button
+        android:id="@+id/Checkinbtn"
+        android:layout_width="127dp"
+        android:layout_height="90dp"
+        android:background="#CBEDDE"
+        android:text="Check in"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="@color/darkpink"
+        android:textStyle="bold"
+        app:backgroundTint="@color/pink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.573" />
+
+    <Button
+        android:id="@+id/Hospitalbtn"
+        android:layout_width="127dp"
+        android:layout_height="90dp"
+        android:background="#CBEDDE"
+        android:text="Hospital Location"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:backgroundTint="@color/pink"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.883"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.574" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

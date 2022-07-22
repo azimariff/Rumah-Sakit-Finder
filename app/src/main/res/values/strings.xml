@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Rumah Sakit Finder</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="aboutus">This is an application build by the student of Sir hafiz for subject ICT602 to give location of hospital in Malaysia
+        and this page is about us  </string>
+    <string name="members">1. MUHAMMAD SAIFUL AZIM BIN MOHD ARIFF\n\n
+
+2. PUTERA MOHD ALIF BAKHTIAR BIN MOHD ZAHIR\n\n
+
+3. MUHAMMAD NORZAKWAN BIN MOHD SHAM\n\n
+
+4. NOOR  SYARAFANA BINTI NORDIN\n\n
+
+5. ANISAH BINTI ROSLI\n\n
+
+6. NUR BALQIS BINTI MOHD AZUDDIN\n\n
+    </string>
+</resources>
