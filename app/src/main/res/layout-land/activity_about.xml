@@ -57,6 +57,12 @@
                 android:text="@string/members"
                 android:textColor="#000000" />
 
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/linkgithub" />
+
             <Button
                 android:id="@+id/btnhome"
                 android:layout_width="202dp"
