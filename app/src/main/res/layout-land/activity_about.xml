@@ -58,10 +58,16 @@
                 android:textColor="#000000" />
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/tvLink"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/linkgithub" />
+                android:paddingLeft="16dp"
+                android:paddingTop="30dp"
+                android:paddingRight="16dp"
+                android:paddingBottom="16dp"
+                android:text="@string/linkgithub"
+                android:textColor="#000000"
+                android:textColorLink="#2859EC"/>
 
             <Button
                 android:id="@+id/btnhome"
